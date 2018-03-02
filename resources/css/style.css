@@ -157,3 +157,99 @@ footer img {
   height: 1.5rem;
   padding: 4rem 1rem 4rem 4rem;
 }
+
+/* Media Query for Tablet */
+
+@media only screen and (max-width: 1024px) {
+  header {
+   margin: 0;
+ }
+
+  .banner {
+   height: 22rem;
+ }
+
+  .tag {
+   margin-top: 5rem;
+ }
+
+  .tag-line {
+    margin-right: 2rem;
+    font-size: 1.33rem;
+  }
+
+  .tagline p {
+    padding: 0.75rem 4rem;
+  }
+
+  .info_container .site_container {
+    justify-content: center;
+  }
+
+}
+
+/* Media Query for Phone */
+
+@media only screen and (max-width: 470px) {
+
+  header {
+    width: 100%;
+  }
+
+  .site_container {
+    width: 470px;
+  }
+
+  .banner {
+    height: 17rem;
+    background-position: 20%;
+  }
+
+  .tag {
+    margin-top: 7rem;
+  }
+
+  .tag-line {
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+    width: 100%;
+    margin: 0;
+    font-size: 1rem;
+  }
+
+  .container {
+    flex-direction: column;
+    align-items: center;
+    margin: 3.77rem 0;
+  }
+
+  .box {
+    margin: 0.77rem 0;
+    height: 5.5rem;
+  }
+
+  .exams {
+    height: 7rem;
+  }
+
+  .info_container .site_container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .content {
+    width: 100%;
+    justify-content: center;
+    font-size: 0.77rem;
+    margin-bottom: 4rem;
+  }
+
+  #block {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0 0 1rem 0;
+  }
+
+}
