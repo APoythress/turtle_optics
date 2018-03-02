@@ -21,10 +21,6 @@ body {
   width: 960px;
 }
 
-div {
-  border: 1px solid red;
-}
-
 /* Banner with header and tagline */
 
 .banner {
@@ -87,4 +83,77 @@ a:link {
   font-size: 2rem;
   font-weight: bold;
   line-height: 1.2;
+  margin-right: -2rem;
+}
+
+/* Services Section */
+
+.container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 8rem;
+  width: 5rem;
+  margin: 3rem 3rem;
+  text-align: center;
+}
+
+img {
+  width: 5rem;
+  height: auto;
+}
+
+.exams img {
+  width: 3.5rem;
+}
+
+/* Info setion */
+
+.info_container {
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  margin: 0 2.5% 5rem 2.5%;
+}
+
+#block {
+  padding: 0.5rem 1.25rem;
+  background-color: cadetblue;
+  margin-bottom: 1rem;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  width: 10rem;
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  width: 100%;
+  background-color: azure;
+}
+
+footer span {
+  display: flex;
+  align-items: center;
+}
+
+footer img {
+  display: flex;
+  align-items: center;
+  height: 1.5rem;
+  padding: 4rem 1rem 4rem 4rem;
 }
